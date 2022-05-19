@@ -99,8 +99,17 @@ nav ul li:hover{
     color: white;
 }
 
+.bbc p a:hover{
+    color: #000000;
+}
+
 .img-tours{
     display: none;
+    transition: all 300ms;
+}
+
+.img-tours:hover{
+    transform: scale(1.02);
 }
 
 .footer-home{
@@ -343,6 +352,54 @@ nav ul li:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.album-6{
+    transition: all 300ms;
+}
+
+.album-6:hover{
+    transform: scale(1.05);
+}
+
+.album-5{
+    transition: all 300ms;
+}
+
+.album-5:hover{
+    transform: scale(1.05);
+}
+
+.album-4{
+    transition: all 300ms;
+}
+
+.album-4:hover{
+    transform: scale(1.05);
+}
+
+.album-3{
+    transition: all 300ms;
+}
+
+.album-3:hover{
+    transform: scale(1.05);
+}
+
+.album-2{
+    transition: all 300ms;
+}
+
+.album-2:hover{
+    transform: scale(1.05);
+}
+
+.album-1{
+    transition: all 300ms;
+}
+
+.album-1:hover{
+    transform: scale(1.05);
 }
 
 .title-discografia{
