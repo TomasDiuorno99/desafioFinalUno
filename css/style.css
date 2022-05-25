@@ -155,6 +155,10 @@ nav ul li:hover{
         flex-direction: row;
     }
 
+    .header-home nav ul li a{
+        font-size: 2.5rem;
+    }
+
     .main-home{
         display: flex;
         justify-content: center;
@@ -262,6 +266,10 @@ nav ul li:hover{
     .header-miembros{
         display: flex;
         flex-direction: row;
+    }
+
+    .header-miembros nav ul li a{
+        font-size: 2.5rem;
     }
 
     .title-miembros{
@@ -394,6 +402,11 @@ nav ul li:hover{
 /* screen 1280px */
 
 @media screen and (min-width: 1280px) {
+    .header-discografia div div ul li a{
+            font-size: 2.5rem;
+        }
+    }
+    
     .main-discografia{
         height: 60vh;
     }
