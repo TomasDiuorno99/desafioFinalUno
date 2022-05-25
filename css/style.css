@@ -323,189 +323,79 @@ nav ul li:hover{
     }
 }
 
-/*html discografia*/
+/*html discografia con bootstrap*/
 
-.header-discografia{
-    padding-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
+.html-disc{
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
 }
 
-.portada-discografia{
-    background-attachment: fixed;
-    background-image: url(../img/portadadiscografia.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
-    padding: 4rem;
-    position: relative;
-    display: none;
+.nav-discografia{
+    background-color: #000000;
+}
+
+.contenedor-nav{
+    display: flex;
+}
+
+.burger{
+    background-color: #ffffff;
+}
+
+.container-fluid{
+    display: grid;
+    margin: 1rem;
+    text-align: center;
+}
+
+.logo-disc{
+    width: 40%;
 }
 
 .main-discografia{
-    background-color: #414141;
-    padding: 2rem;
+    height: 80vh;
+    background-color: #252525;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
-.album-6{
-    transition: all 300ms;
-}
-
-.album-6:hover{
-    transform: scale(1.05);
-}
-
-.album-5{
-    transition: all 300ms;
-}
-
-.album-5:hover{
-    transform: scale(1.05);
-}
-
-.album-4{
-    transition: all 300ms;
-}
-
-.album-4:hover{
-    transform: scale(1.05);
-}
-
-.album-3{
-    transition: all 300ms;
-}
-
-.album-3:hover{
-    transform: scale(1.05);
-}
-
-.album-2{
-    transition: all 300ms;
-}
-
-.album-2:hover{
-    transform: scale(1.05);
-}
-
-.album-1{
-    transition: all 300ms;
-}
-
-.album-1:hover{
-    transform: scale(1.05);
-}
-
-.title-discografia{
+.title-disc{
     color: #D72323;
+    margin-top: 3rem;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: underline;
     text-align: center;
     -webkit-text-stroke: 0.4px;
     -webkit-text-stroke-color: #000000;
-    margin-bottom: 1rem;
 }
 
-.footer-discografia{
-    width: 100vw;
-    position: absolute;
+.carousel{
+    margin: auto;
+    max-width: 500px; 
+}
+
+.footer-disc{
+    margin-top: 1rem;
     text-align: center;
     background-color: black;
     padding: 1rem;
 }
 
-/*screen 760px*/
+/* screen 760px */
+
 @media screen and (min-width: 760px) {
-     
-    .albums{
-        display: grid;
-        grid-template-areas:"we-are-not-your-kind the-gray-chapter"
-                             "all-hope-is-gone vol-tres"
-                             "iowa slipknot-album";
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.5fr 0.5fr 0.5fr;
-        gap: 1rem;
-    }
-
-    .album-6{
-        grid-area: we-are-not-your-kind;
-    }
-
-    .album-5{
-        grid-area: the-gray-chapter;
-    }
-
-    .album-4{
-        grid-area: all-hope-is-gone;
-    }
-
-    .vol-tres{
-        grid-area: vol-tres;
-    }
-
-    .iowa{
-        grid-area: iowa;
-    }
-
-    .slipknot-album{
-        grid-area: slipknot-album;
+    .main-discografia{
+        height: 70vh;
     }
 }
 
-/*screen 1280px*/
+/* screen 1280px */
+
 @media screen and (min-width: 1280px) {
-    .header-discografia{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .portada-discografia{
-        display: block;
-    }
-
-    .title-discografia{
-        font-size: 2rem;
-    }
-    
-    .albums{
-        display: grid;
-        grid-template-areas:"we-are-not-your-kind the-gray-chapter all-hope-is-gone"
-                             "vol-tres iowa slipknot-album"
-                             ;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.5fr 0.5fr;
-        gap: 1rem;
-    }
-
-    .album-6{
-        grid-area: we-are-not-your-kind;
-    }
-
-    .album-5{
-        grid-area: the-gray-chapter;
-    }
-
-    .album-4{
-        grid-area: all-hope-is-gone;
-    }
-
-    .vol-tres{
-        grid-area: vol-tres;
-    }
-
-    .iowa{
-        grid-area: iowa;
-    }
-
-    .slipknot-album{
-        grid-area: slipknot-album;
+    .main-discografia{
+        height: 60vh;
     }
 }
 
